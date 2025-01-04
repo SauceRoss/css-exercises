@@ -18,7 +18,8 @@ body {
 }
 
 .footer {
-  height: 72px;
+  max-height: 72px;
+  flex: 1;
   background: #eee;
   color: darkmagenta;
   content: #9734 ;
@@ -28,9 +29,13 @@ body {
 }
 
 .sidebar {
-  max-width: 300px;
+  width: 450px;
   background: royalblue;
-  box-sizing: border-box;
+  display: flex;
+  gap: 20px;
+}
+
+.body{
   display: flex;
   flex: 1;
 }
@@ -41,30 +46,26 @@ body {
   border-radius: 4px;
   width: 200px;
   height: 200px;
+  
 }
 .cards {
   display: flex;
-  
   justify-content: center;
   align-items: center;
-  border: 1px solid ;
   flex-wrap: wrap;
-  padding: 12px 24px;
+  gap: 20px
 }
 
 a{
   text-decoration: none;
   color: #eee;
   font-size: 24px;
-;
 }
 
 ul {
-  margin: 0;
-  padding: px;
-  gap: px;
+  display: flex;
+  flex-direction: column;
   list-style: none;
-  flex:1;
-
+  gap: 20px;
 }
 
