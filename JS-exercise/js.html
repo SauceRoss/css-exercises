@@ -1,0 +1,86 @@
+<a!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    
+    //Random simple js exercises
+    let num;
+    let num1;
+    let num2;
+    let str;
+
+    function add7(num) {
+        
+        let newNum = num + 7;
+
+        console.log(newNum);
+    }
+
+    function multiply(num1,num2) {
+        let multiplied = num1 * num2;
+
+        console.log(multiplied);
+    }
+
+    function capitalize(str) {
+        let newStr = str.charAt(0).toUpperCase() + str.slice(1);
+
+        console.log(newStr);
+    }
+
+    function lastLetter(str) {
+       let noStr = str.charAt(str.length-1);
+
+        console.log(noStr);
+    }
+
+    //FizzBuzz Attempt
+    let n = parseInt(prompt("Input a number"));
+
+    for(let i = 1; i <= n; i++) {
+        if(i % 3 == 0) {
+            console.log("Fizz");
+        } else if(i % 5 == 0) {
+            console.log("Buzz");
+        } else if( ((i % 3) && (i % 5)) == 0 ) {
+            console.log("FizzBuzz");
+        } else {
+            console.log(i);
+        }
+    }
+
+   </script> 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
